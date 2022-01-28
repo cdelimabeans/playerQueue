@@ -1,0 +1,54 @@
+body {
+    background-color: transparent;
+    display: flex;
+}
+
+body>div {
+    margin-right: 25px;
+}
+
+p.player {
+    margin: 0;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: white;
+    width: 360px;
+    background-color: #4b38989b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px black;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.header {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    height: 38px;
+    background-color: #8570fe;
+    border-top: solid 5px #5846b1;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top:41px;
+    margin-bottom: 5px;
+    width: 382px;
+}
+
+.header p {
+    color: #e8d051;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    text-shadow: 3px 3px #5848b3;
+    margin: 0;
+}
+
+.header span {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    float: right;
+    padding: 0 5px;
+    font-weight: 500;
+    text-shadow: none;
+}
